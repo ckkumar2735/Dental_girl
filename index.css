@@ -18,26 +18,41 @@
     /* background-attachment:fixed; */
     /* height: 890px; */
 }
+.girl_logo{
+    /* margin-left:800px; */
+    
+}
+
+.discover{
+    padding-left:50px;
+}
 
 .text-1{
     font-style: normal;
     font-weight: 700;
-    font-size: 52px;
+    font-size: 60px;
+    /* line-height: 82px; */
     color: #3D3D77;
     text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.25);
 }
 .text-2{
-    font-weight: 600;
-    font-size: 28px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+/* line-height: 48px; */
 }
 
 .text-3{
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
+    /* line-height: 48px; */
     color: #000000;
 }
 .text-4{
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 30px;
@@ -45,6 +60,7 @@
 }
 
 .text-5{
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 50px;
@@ -52,93 +68,102 @@
 }
 
 .text-6{
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
     color: #363435;
 }
 .text-7{
+    font-family: 'Poppins';
     font-style: normal;
 font-weight: 600;
 font-size: 40px;
 text-transform: capitalize;
 color: #3D3D77;
-padding-left:10px;
+padding-left:50px;
 }
 .text-8{
+    font-family: 'Inter';
     font-style: normal;
-font-weight: 400;
-font-size: 36px;
-
-text-transform: capitalize;
-
-color: #000000
+    font-weight: 400;
+    font-size: 36px;
+    text-transform: capitalize;
+    color: #000000;
 }
 .text-9{
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 48px;
     text-transform: capitalize; 
     color: #29166F;
     margin-top:10px;
-    /* margin-left:50px; */
+    padding-left:50px;
 
 
 }
 .text-10{
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
     text-transform: capitalize;
     color: #555657;
-    /* margin-left:50px; */
+    padding-left:50px;
 }
 .text-11{
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 42px;
-    text-transform: capitalize;
+    text-transform: capitalize; 
     color: #3D3D77;
     margin-top:50px;
-    /* margin-left:50px; */
+    padding-left:50px;
 }
 .text-12{
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 36px;
+    font-size: 36px2;
     text-transform: capitalize;
     color: #5987AC;
-    /* margin-left:50px; */
+    padding-left:50px;
     margin-top:40px;
 }
 .text-13{
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 28px;
     text-transform: capitalize;
     color: #000000;
-    /* margin-left:50px; */
+    padding-left:50px;
     margin-top:20px;   
 }
 
 .text-14{
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 42px;
     color: #363435;
     margin-top:50px;
-    /* margin-left:40px; */
+    padding-left:50px;
 }
 .text-15{
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
     line-height: 39px;
     color: #363435;
     margin-top:30px;
-    /* margin-left:40px; */
+    padding-left:50px;
 }
 .text-16{
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -147,6 +172,7 @@ color: #000000
 
 }
 .text-17{
+    font-family: 'Poppins';
     font-style: normal;
 font-weight: 600;
 font-size: 64px;
@@ -155,6 +181,7 @@ color: #3D3D77;
 margin-top:120px;
 }
 .text-18{
+    font-family: 'Poppins';
     font-style: normal;
 font-weight: 600;
 font-size: 48px;
@@ -601,12 +628,18 @@ font-size: 25px;
 /* ******************************************************************* */
 @media only screen and (max-width:767px)  and (min-width: 300px) 
 {
+
     .log{
         width:210px;
     }
 
     .ph1{
         width:50px;
+    }
+
+    .discover{
+      margin-left:-50px;
+      
     }
     .text-1{
         font-weight: 800;
@@ -632,6 +665,7 @@ font-size: 25px;
     }
     .text-7{
         font-size: 20px;
+        margin-left:-50px;
     }
     .text-8{
         font-size: 18px;
@@ -642,34 +676,38 @@ font-size: 25px;
         width:450px;
     }
     .text-9{
-        margin-left:10px;
+        margin-left:-50px;
         font-size: 20px;
+
     }
     .text-10{
-        margin-left:10px;
+        margin-left:-50px;
         font-size: 18px;
-        margin-top:20px;
+        margin-top:10px;
     }
     .text-11{
         font-size: 20px;
         margin-top:50px;
-        margin-left:10px;
+        margin-left:-50px;
     }
     .text-12{
         font-size: 20px;
-        margin-left:10px;
+        margin-left:-50px;
+
     }
     .text-13{
         font-size: 18px;
-        margin-left:10px;
+        margin-left:-50px;
     }
     .text-14{
-        font-size: 20px;
-        margin-left:10px;
+        font-size: 18px;
+       
+        margin-left:-50px;
     }
     .text-15{
-        font-size: 18px;
+        font-size: 16px;
         margin-left:10px;
+        margin-left:-50px;
     }
     .text-16{
         font-size: 18px;
@@ -738,6 +776,60 @@ font-size: 25px;
 }
 
 @media only screen and (max-width:991px)  and (min-width: 768px)  {
+
+    .discover{
+        margin-left:-50px;
+    }
+    .text-1{
+        font-size: 40px;
+    }
+
+    .text-2{
+        font-size: 30px;
+    }
+    .text-3{
+        font-size: 20px;
+    }
+    .text-4{
+        font-size:18px;
+    }
+    .text-5{
+       
+    }
+    .text-6{
+       
+    }
+
+    .text-7{
+       
+        margin-left:-50px;
+    }
+    .text-8{
+       
+        
+    }
+    .text-9{
+        margin-left:-50px;
+    }
+    .text-10{
+        margin-left:-50px;
+    }
+    .text-11{
+        margin-left:-50px;
+    }
+    .text-12{
+        margin-left:-50px;
+    }
+    .text-13{
+        margin-left:-50px;
+    }
+    .text-14{
+        font-size:35px;
+        margin-left:-50px;
+    }
+    .text-15{
+        margin-left:-50px;
+    }
     .slider_img{
         margin-left:300px;
     }

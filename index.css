@@ -1,839 +1,1023 @@
-.log{
-    width:290px;
-    
-}
-.ph{
-    
-    width:300px;
-    
-}
-.ph1{
-   
-}
+<!doctype html>
+<html lang="en">
 
-.hero{
-    background-image:url(./images/bg-1.png);
-    background-position:center;
-    background-size:cover;
-    /* background-attachment:fixed; */
-    /* height: 890px; */
-}
-.girl_logo{
-    /* margin-left:800px; */
-    
-}
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
-.discover{
-    padding-left:50px;
-}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,500&display=swap"
+        rel="stylesheet">
 
-.text-1{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 60px;
-    /* line-height: 82px; */
-    color: #3D3D77;
-    text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.25);
-}
-.text-2{
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 28px;
-/* line-height: 48px; */
-}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
 
-.text-3{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    /* line-height: 48px; */
-    color: #000000;
-}
-.text-4{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 30px;
-    color: #000000;
-}
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <!-- Custom CSS -->
 
-.text-5{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 50px;
-    color: #3D3D77;
-}
+    <!-- owl carousel -->
+    <link rel="stylesheet" type="text/css" href="owl.carousel.min.css">
 
-.text-6{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    color: #363435;
-}
-.text-7{
-    font-family: 'Poppins';
-    font-style: normal;
-font-weight: 600;
-font-size: 40px;
-text-transform: capitalize;
-color: #3D3D77;
-padding-left:50px;
-}
-.text-8{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    text-transform: capitalize;
-    color: #000000;
-}
-.text-9{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 48px;
-    text-transform: capitalize; 
-    color: #29166F;
-    margin-top:10px;
-    padding-left:50px;
+    <!-- Owl Carousel -->
+    <!-- ----------------------------------------------------------------------------------- -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+</head>
+
+<body class=onmousedown="return true" onselectstart="return false">
+
+    <section>
+        <div class="hero ">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand log " href="#"><img src="images/logo.png" alt="" class="img-fluid"></a>
 
 
-}
-.text-10{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    text-transform: capitalize;
-    color: #555657;
-    padding-left:50px;
-}
-.text-11{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 42px;
-    text-transform: capitalize; 
-    color: #3D3D77;
-    margin-top:50px;
-    padding-left:50px;
-}
-.text-12{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 36px2;
-    text-transform: capitalize;
-    color: #5987AC;
-    padding-left:50px;
-    margin-top:40px;
-}
-.text-13{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-    text-transform: capitalize;
-    color: #000000;
-    padding-left:50px;
-    margin-top:20px;   
-}
 
-.text-14{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 42px;
-    color: #363435;
-    margin-top:50px;
-    padding-left:50px;
-}
-.text-15{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 39px;
-    color: #363435;
-    margin-top:30px;
-    padding-left:50px;
-}
-.text-16{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    text-align: center;
-    color: #000000;
+                    <span class="navbar-brand  ph mt-3  d-md-block d-none ">
 
-}
-.text-17{
-    font-family: 'Poppins';
-    font-style: normal;
-font-weight: 600;
-font-size: 64px;
-text-align: center;
-color: #3D3D77;
-margin-top:120px;
-}
-.text-18{
-    font-family: 'Poppins';
-    font-style: normal;
-font-weight: 600;
-font-size: 48px;
+                        <a href="tel:07900013190"><img src="images/5.png" alt="" class="img-fluid"></a>
 
-text-align: center;
-text-transform: capitalize;
+                    </span>
 
-color: #3D3D77
-}
-.btn1{
-    background: #3D3D77;
-    color:#FFFFFF;
-border-radius: 4px;
-/* width: 500px;
-height: 97px; */
-font-style: normal;
-font-weight: 500;
-font-size: 25px;
-}
+                    <p class="navbar-brand  ph1 mt-1  d-col-block d-md-none ">
 
-.btn2{
-    background: #FFFFFF;
-    border-radius: 8px;
-    color:black;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 25px;
-}
+                        <a href="tel:07900013190"><img src="images/2_1.png" alt="" class="img-fluid "></a>
 
-.btn3{
+                    </p>
 
-}
-.btn4{
+                </div>
 
-}
+            </nav>
 
-.box1{
-    width: auto;
-    height:auto;
-    background: rgba(0, 0, 0, 0.26);
-    
-}
-.box1 .abox{
-	display: flex;
-	flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-}
+            <div class="container-fluid">
+                <div class="row mb-5">
+                    <div class="col-lg-9  mx-auto text-center ">
+                        <h2 class="text-2"> Dental Reforms: Thane's Leading Dental Clinic Trusted By 20,000+ People!
+                        </h2>
+                        <h1 class="text-1 mt-4">Dr. Dipika Finally Revealed On- How To Get Rid Of Tooth Pain Without
+                            Using
+                            Temporary Tooth
+                            Pain
+                            Medicines</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-5 mx-auto text-center">
+                            <h3 class="text-3 mt-4">Get Permanent Tooth Pain Relief With Advanced Painless Techniques In
+                                30
+                                Minute At Dental
+                                Reforms. Get Rid
+                                Of Tooth Pain In A Single Visit.....</h3>
+                        </div>
+                    </div>
 
-.box1 .abox img{
-	width: 30%;
-    /* mix-blend-mode:grey; */
-}
+                </div>
 
-.box1 .abox .vector{
-	display: flex;
-	flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-}
-.box1 .abox .vector img{
-	width: 80%;
-    /* mix-blend-mode:grey; */
-}
-.box1 .abox .vector p{
-	font-size: 24px;
-	margin-bottom: -7px;
-	font-weight: 600;
- 
-}
 
-.box1 .abox p{
-	
-	font-weight: 600;
-	color: #FFFFFF;
-	font-size: 24px;
-	margin: 0;
-}
+                <div class="row mb-5">
+                    <div class="col-lg-8 mx-auto text-center">
+                        <p style="text-align:center;">
+                            <button type="button" class="btn btn-primary btn1 text-center p-4 " href="" role="button"
+                            data-bs-toggle="modal"
+                            data-bs-target="#dental-modal">Book Pain-Free Appointment Now</button>
+                                
+                            </p>
+                        <p class="h3 text-4_1 mb-5">(Guaranteed Relief Of Tooth Pain In Single Visit)</p>
+                    </div>
+                </div>
 
-.teeth_bg{
-    /* margin-top:50px; */
-    height:420px;
-    width:450px;
-}
-.girl_teeth{
-    margin-top:50px;
-    
-}
+                <!-- <div class="dental-button pt-lg-4 mt-5 btn13">
+                    <button type="button" class="btn-dental btn13  " data-bs-toggle="modal"
+                        data-bs-target="#dental-modal"
+                        style="color: #FFFFFF; background: #D32920;font-family:'Poppins'; font-weight: 500;">Book
+                        Your Appointment Now ! </button>
+                    <p style="color: #2F2F2F; text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);">(Get 20%OFF On
+                        All Dental Treatment in the month of April)</p>
+                </div> -->
 
-.client-review{
-	padding: 1rem 0rem;
-}
-.client-review h2{
-	text-align: center;
-    font-size: 25px;
-    font-weight: 700;
-    margin-bottom: 2.5rem;
-    line-height: 40px;
-    color: #29166F;
-   
-}
-.client-review .client-slide{
-	padding: 2rem 0rem;
-}
-.client-review .client-slide .client-image {
-    border: 3px solid #DA251C;
-    border-radius: 7px;
-    min-height: 250px;
-    display: flex;
-}
-.client-review .client-slide .owl-carousel .owl-dots.disabled{
-    display: none;
-}
-.client-review .client-slide .owl-carousel .owl-nav.disabled{
-    display: block;
-}
-.client-review .client-slide .owl-carousel .owl-nav button.owl-prev, .client-review .client-slide .owl-carousel .owl-nav button.owl-next {
-	background: 0 0;
-    color: #fff;
-    border: none;
-    padding: 2px 10px 5px 10px !important;
-    font: inherit;
-    position: absolute;
-    top: 32%;
-    font-size: 40px;
-    line-height: 30px;
-    background-color:#DA251C;
-}
-.client-review .client-slide .owl-carousel .owl-nav button.owl-prev {
-    left: -55px;
-}
-.client-review .client-slide .owl-carousel .owl-nav button.owl-next{
-    right: -55px;
-}
+            </div>
 
-.slider {
-    margin-bottom: 30px;
-    position: relative;
-    padding-bottom: 5px;
-  }
-  .slider .owl-item.active.center .slider-card {
-    transform: scale(1.15);
-    opacity: 1;
-   
-    color: #black;
-  }
-  .slider-card {
-    padding-bottom:10px;
-    background: #fff;
-    padding: 0px 0px;
-    margin: 50px 15px 90px 15px;
+            <!--  -->
 
-    box-shadow: 0 15px 45px -20px rgb(0 0 0 / 73%);
-    transform: scale(0.9);
-    opacity: 0.5;
-    transition: all 0.3s;
-  }
-  .slider-card img {
-    border-radius: 5px 5px 0px 0px;
-    
-  }
+            <!-- <div class="container-fluid">
+                <div class="d-md-block  d-none box1 align-items-center">
+                    <div class="row align-items-center justify-content-center">
+                        <div class="col  pt-md-0 pt-md-0 pt-4">
+                            <div class="abox">
+                                <img src="images/image-312.png" class="img-fluid" oncontextmenu="return false">
+                                <p>Star Rating</p>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="col pt-md-0 pt-md-0 pt-4">
+                            <div class="abox">
+                                <div class="vector">
+                                    <img src="images/image-311.png" class="img-fluid" oncontextmenu="return false">
+                                    <p>3,000+</p>
+                                </div>
+                                <p>Happy Patients</p>
+                            </div>
+                        </div>
+                        <div class="col pt-md-0 pt-4">
+                            <div class="abox three-four">
+                                <img src="images/image-3132.png" class="img-fluid" oncontextmenu="return false">
+                                <p>Instant pain-relief</p>
+                            </div>
+                        </div>
 
-  .review{
-    padding: 5rem 0rem;
-    text-align: center;
-}
-.review h2{
-    font-size: 35px;
-    font-weight: 600;
-    line-height: 72px;
-    color:#29166F;
-    margin-bottom: 20px;
-}
-/* .review h2 span{
-    display: block;
-    width: 15%;
-    border: 3px solid #448c7f;
-    border-radius: 15px;
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-} */
+                        <div class="col pt-md-0 pt-4">
+                            <div class="abox three-four ">
+                                <img src="images/image-315.png" class="img-fluid" oncontextmenu="return false">
+                                <p>100% Satisfaction Guarentee</p>
+                            </div>
+                        </div>
 
-.g-review{
-    padding: 1rem 0rem;
-}
-.g-review .g-box{
-    background: #FFFFFF;
-    box-shadow: 0px 5px 20px 1px rgba(71, 71, 71, 0.25);
-    border-radius: 5px;
-    padding: 2rem 2rem 1rem;
-}
-.g-review .g-box h6{
-    font-size: 22px;
-    font-weight: 500;
-    margin: 0;
-}
-/* .g-review .g-box .star{
-    margin-bottom: 15px;
-}
-.g-review .g-box .star i{
-    color: #FFD700;    
-} */
 
-.slider_img{
-    margin-left:180px;
-}
+                    </div>
+                </div>
+            </div> -->
 
-.slider-card .star{
-    margin-bottom: 10px;
-}
-.slider-card .star i{
-    color: #FFD700;    
-}
-/* .slider-card a{
-    font-size: 10px;
-}
-.slider-card a img{
-    width: 30px;
-    margin-top: 8px;
-} */
+            <!--  -->
+        </div>
+    </section>
 
-.g-review .g-box p{
-    font-size: 15px;
-    font-weight: 400;
-    margin: 0;
-    text-align: initial;
-}
-.g-review .g-box a{
-    font-size: 20px;
-}
-.g-review .g-box a img{
-    width: 30px;
-    margin-top: 8px;
-}
+    <div class="modal fade" id="dental-modal" tabindex="-1" aria-labelledby="Dental-Form" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+                <div class="dental-form-bg">
+                    <div class="container">
+                        <div class="dental-form">
+                            <!-- <form class="row g-3 company_form" onsubmit="sendEmail(); reset(); return false; "> -->
+                            <form class="row g-3" onsubmit="sendmail(event)">
+                                <div class="col-md-6 ">
+                                    <div class="dental-form-control">
+                                        <label for="name" class="form-label form-label-lg">Full Name*</label>
+                                        <input onfocus="onChangeInput('name')" type="text"
+                                            class="form-control form-control-lg" id="name" name="name"
+                                            placeholder="Full Name" required>
+                                    </div>
+                                    <span id="nameError" class="mError"></span>
+                                </div>
+                                <div class="col-md-6 ">
+                                    <div class="dental-form-control">
+                                        <label for="email" class="form-label form-label-lg">Email Address*</label>
+                                        <input onfocus="onChangeInput('email')" type="email"
+                                            class="form-control form-control-lg" id="email" name="email"
+                                            placeholder="abcd@gamil.com" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="dental-form-control">
+                                        <label for="phone" class="form-label form-label-lg">Phone Number*</label>
+                                        <input onfocus="onChangeInput('phone')" type="number"
+                                            class="form-control form-control-lg" id="phone" name="phone"
+                                            placeholder="Mobile Number" required>
+                                    </div>
+                                </div>
 
-.dental-form-bg{
-	color: #fff;
-	background-color: #3D3D77;
-	padding: 4rem 0rem 2rem;
-}
-.modal-content .dental-form-bg{
-	padding: 2rem 0rem;
-}
-.dental-form .dental-form-control{
-	padding: 1rem 2rem;
-}
-.dental-form .dental-form-control label{
-	font-weight: 700;
-    
-}
-.dental-form .dental-form-control input{
-	font-size: 15px;
-	padding: 15px 20px;
-}
-.dental-form .dental-form-control input::placeholder{
-	color: #838383;
-	font-weight: 400;
-}
-.dental-form .dental-form-control select{
-	font-size: 15px;
-	padding: 15px 20px;
-	color: #838383;
-	font-weight: 400;
-}
-.dental-form .dental-form-control .input-group>.form-select {
-    position: relative;
-    flex: none;
-    width: 20%;
-    min-width: unset;
-}
-.dental-form .dental-form-control .input-group>.form-control, .input-group>.form-floating {
-    position: relative;
-    flex: none;
-    width: 80%;
-    min-width: unset;
-}
 
-.guarante-bg{
-    background-image: url(../../assets/images/Rectangle-8401.png), url(../../assets/images/dl-beatsnoop-1.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    border-bottom: 1px solid #000000a1;
-    padding: 5rem 0rem 6rem;
-}
-.guarantee{
-    text-align: center;
+                                <div class="col-md-6">
+                                    <div class="dental-form-control">
+                                        <label for="age" class="form-label form-label-lg">Treatment*</label>
+                                        <select class="form-select form-select-lg" id="Treatment" name="Treatment"
+                                            aria-label="Default select example" required>
+                                            <option selected>Option: -
+                                                Overbite</option>
+                                            <option value="Underbite">Underbite</option>
+                                            <option value="Crossbite">Crossbite</option>
+                                            <option value="Gapped Teeth">Gapped Teeth</option>
+                                            <option value="Overly Crowded">Overly Crowded</option>
+                                            <option value="Unstraightened teeth">Unstraightened teeth</option>
+                                        </select>
+                                    </div>
+                                    <span id="treatmentError" class="mError"></span>
+                                </div>
+
+
+
+
+
+
+
+                                <div class="col-md-6">
+                                    <div class="dental-form-control">
+                                        <label for="Date" class="form-label form-label-lg">Date*</label>
+                                        <input type="Date" class="form-control form-control-lg" id="Date" name="Date"
+                                            placeholder="Eg:22" required>
+                                    </div>
+                                    <span id="dateError" class="mError"></span>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="dental-form-control">
+                                        <label for="time" class="form-label form-label-lg">Time*</label>
+                                        <input type="time" class="form-control form-control-lg" id="time" name="time"
+                                            placeholder="Time" required>
+                                    </div>
+                                    <span id="timeError" class="mError"></span>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="dental-button text-center ">
+                                        <button type="submit" value="Submit" class=" btn-dental appoint "
+                                            style="background-color: #fff; padding: 20px 60px  ; color: #2d2d2d;">Submit</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
   
-}
-.guarantee .guarantee-image{
-    padding: 2rem 0rem;
-}
-.guarantee .guarantee-image img{
-    width: 480px;
-    margin-top:-100px;
-}
-.guarantee h6{
-    font-size: 30px;
-    font-weight: 400;
-    text-align: center;
-    line-height: 38px;
-    margin-top: 2rem;
-    color: #fff;
-}
-.guarantee h6 b{
-    font-size: 28px;
-    font-weight: 600;
-}
 
-/* Satisfaction */
-/* ******************************************************************* */
-.satisfaction{
-    display: flex;
-    flex-wrap: nowrap;
-    align-content: center;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
+    <section>
+        <div class="achieve-bg">
+            <div class="container-fluid">
+                <div class="achieve">
+                    <div class="d-lg-block d-md-none d-sm-none d-none">
+                        <div class="row align-items-center justify-content-center">
+                            <div class="col border pt-lg-0 pt-md-0 pt-4">
+                                <div class="abox">
+                                    <img src="images/image-312.png" class="img-fluid" oncontextmenu="return false">
+                                    <p>Star Rating</p>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="col border pt-lg-0 pt-md-0 pt-4">
+                                <div class="abox">
+                                    <div class="vector">
+                                        <img src="images/image-311.png" class="img-fluid" oncontextmenu="return false">
+                                        <p>3,000+</p>
+                                    </div>
+                                    <p>Happy Patients</p>
+                                </div>
+                            </div>
+                            <div class="col border pt-lg-0 pt-4">
+                                <div class="abox three-four">
+                                    <img src="images/image-317.png" class="img-fluid" oncontextmenu="return false">
+                                    <p>Instant pain-relief</p>
+                                </div>
+                            </div>
 
-.satisfaction img{
-    width: 375px;
-    position: relative;
-    z-index: 1;
-}
+                            <div class="col pt-lg-0 pt-4">
+                                <div class="abox three-four ">
+                                    <img src="images/image-315.png" class="img-fluid" oncontextmenu="return false">
+                                    <p>100% Satisfaction Guarentee</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-lg-none d-md-block d-sm-block d-block">
+                        <div class="row align-items-center justify-content-center">
+                            <div class="col-md-4 border pt-md-0 pt-md-0 pt-4">
+                                <div class="abox">
+                                    <img src="images/image-312.png" class="img-fluid" oncontextmenu="return false">
+                                    <p>Star Rating</p>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="col-md-4 border pt-md-0 pt-md-0 pt-4">
+                                <div class="abox">
+                                    <div class="vector">
+                                        <img src="images/image-311.png" class="img-fluid" oncontextmenu="return false">
+                                        <p>3,000+</p>
+                                    </div>
+                                    <p>Happy Smiles</p>
+                                </div>
+                            </div>
+                            <div class="col border pt-md-0 pt-4">
+                                <div class="abox three-four">
+                                    <img src="images/image-317.png" class="img-fluid" oncontextmenu="return false">
+                                    <p>Instant pain-relief</p>
+                                </div>
+                            </div>
+                            <!-- <div class="col-md-4 border pt-lg-0 pt-md-0 pt-4">
+                                <div class="abox three-four">
+                                    <img src="images/image-3132.png" class="img-fluid"
+                                        oncontextmenu="return false">
+                                    <p>Satisfaction Guarantee</p>
+                                </div>
+                            </div> -->
+                            <!-- <div class="col-md-4 border pt-lg-0 pt-md-3 pt-4">
+                                <div class="abox three-four">
+                                    <img src="assets/images/image-314.png" class="img-fluid" oncontextmenu="return false">
+                                    <p>Instant Results</p>
+                                </div>
+                            </div> -->
+                            <!-- <div class="col-md-4 pt-md-0 pt-md-3 pt-4">
+                                <div class="abox three-four">
+                                    <img src="images/image-315.png" class="img-fluid" oncontextmenu="return false">
+                                    <p>Scientifically Proof</p>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
 
-.satisfaction .span1{
-    position: absolute;
-    width: 375px;
-    height: 375px;
-    left: 23%;
-    border-radius: 50%;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 26px 2px rgba(0, 0, 0, 0.25);
-}
-.satisfaction .span2{
-    position: absolute;
-    width: 375px;
-    height: 375px;
-    right: 23%;
-    border-radius: 50%;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 26px 2px rgba(0, 0, 0, 0.25);
-}
+                </div>
+            </div>
+        </div>
+    </section>
 
-.discover2-bg{
-    /* background-image:  url(images/hero-bg.png); */
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding: 0rem 0rem 10rem; 
-}
-.discover2{
-    padding: 20px;
-    margin: 10px;
-    color: #fff;
-    /* text-align: center; */
-   
- 
-}
-.discover2 .txt71 {
-    font-size: 40px;
-    font-weight: 600;   
-    color: #FFFFFF;
-}
 
-.discover2 h2 span{
-    display: block;
-    width: 20%;
-    border: 3px solid #fff;
-    border-radius: 15px;
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-}
+    <Section>
+        <div class="container-fluid " style="background: rgba(159, 200, 234, 0.14);">
+            <div class="row justify-content-center mt-5">
+                <div class=" col-lg-7 mt-5">
+                    <div>
+                        <img src="images/girl_logo.png" alt="" class="img-fluid ">
+                        <img src="images/girl.png" alt="" class="img-fluid" width="1132" height="1300" alt=""
+                            data-lazy-srcset="images/girl.png 1132w, images/girl-261x300.png 261w,images/girl -892x1024.png 892w, images/girl-768x882.png 768w"
+                            data-lazy-sizes="(max-width: 1132px) 100vw, 1132px" data-lazy-src="images/girl.png.png"
+                            class="entered lazyloaded" src="images/girl.png" data-ll-status="loaded"
+                            sizes="(max-width: 1132px) 100vw, 1132px"
+                            srcset="images/girl.png 1132w,images/girl-261x300.png 261w, images/girl-892x1024.png 892w, images/girl-768x882.png 768w">
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-5">
+                <div class=" col-lg-7">
+                    <div>
+                        <h1 class="text-5 align-items-center justify-content-center">
+                            Is Your Toothache Still Giving You
+                            Sleepless Nights? Get Painless
+                            Root Canal Treatment In A
+                            Single Visit With DR.DIPIKA.....
+                        </h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-3">
+                <div class=" col-lg-7">
+                    <div>
+                        <p class="text-6 align-items-center justify-content-center ">Don't take temporary pain-relief
+                            medicine for your permanent tooth pain. Get rid of tooth pain with our advance painless
+                            injection in a single visit at dental reforms. Dr.Dipika has performed more than 10,000+ RCT
+                            with advanced painless technique that gives you instant relief to your tooth pain.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </Section>
 
-.achieve-bg{
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-   /* top:-20px; */
-   
-}
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6  mt-5">
+                    <h1 class="text-7  justify-content-center">
+                        Discover The Most Advanced Painless
+                        Technique To Relief Your Tooth Pain....
+                    </h1>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-4">
+                    <!-- <img src="images/discover.png" alt="" class="img-fluid discover"
+                        style="height: 550px; width: 750px; "> -->
+                        <img src="images/discover.png" alt="" class="img-fluid discover">
+                </div>
 
-.achieve{
-	/* background-color: grey  ; */
-    background: rgba(0, 0, 0, 0.26);
-    border-radius: 05px;
-    padding: 2rem 0rem;
-    margin: 0rem;
-}
+                <div class="col-lg-8">
+                    <p class="text-8 mt-4">Is your toothache making it difficult for you to eat ? Or, Is it hurting you
+                        while doing your
+                        important work ? And You're not able to concentrate on your work & enjoying your daily
+                        life.......then don't worry, At Dental Reforms, You'll get instant relief from your tooth pain
+                        in less than 60 minute with our experts.</p>
 
-.achieve .border{
-	border: none !important;
-	border-right: 3px solid #FFFFFF !important;
-}
+                    <div class="row my-5">
+                        <div class="col-lg-8 mx-auto text-center">
+                            <p style="text-align:center;">
+                                <button type="button" class="btn btn-primary btn1 text-center p-4 " role="button" data-bs-toggle="modal"data-bs-target="#dental-modal">Book Pain-Free Appointment Now</button>
+                            </p>
+                            <p class="h3 text-4_2">(Guaranteed Relief Of Tooth Pain In Single Visit)</p>
+                        </div>
+                    </div>
+                </div>
 
-.achieve .abox{
-	display: flex;
-	flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-}
 
-.achieve .abox img{
-	width: 30%;
-    /* mix-blend-mode:grey; */
-}
+            </div>
 
-.achieve .abox .vector{
-	display: flex;
-	flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-}
-.achieve .abox .vector img{
-	width: 80%;
-    /* mix-blend-mode:grey; */
-}
-.achieve .abox .vector p{
-	font-size: 24px;
-	margin-bottom: -7px;
-	font-weight: 600;
- 
-}
 
-.achieve .abox p{
-	font-family: 'Titillium Web', sans-serif;
-	font-weight: 600;
-	color: #FFFFFF;
-	font-size: 24px;
-	margin: 0;
-}
+        </div>
+    </section>
 
-/* ******************************************************************* */
-@media only screen and (max-width:767px)  and (min-width: 300px) 
-{
+    <section>
+        <div class="container-fluid " style="background: #F2F7FC;">
+            <div class="row  mt-5">
+                <div class=" col-lg-8 mt-5">
+                    <h1 class="text-9 mt-5">Discover Our New Painless Implant Surgery With Same-Day Teeth With Dental
+                        Implants....
+                    </h1>
+                    <p class="text-10 mt-5">
+                        (Are You still searching on google about ? How Successful are Dental Implants ? Or, Are dental
+                        implants painful ? So, Don't worry At Dental Reforms, We have placed more than 5000 Successful
+                        Implants with painless technique by Dr.Deepika Dodeja, Who's an Maxillofacial Prosthodontics and
+                        Implantology,with a vast experience in Implantology. And Have served more than 20,000+ Happy
+                        Patients. At Dental Reforms, You'll find affordable dental implants with a single visit. Go &
+                        Book Your Free Implant Consultation with Dr.Dipika Doodeja Today & Get Affordable Dental
+                        Implants !)
+                    </p>
 
-    .log{
-        width:210px;
-    }
 
-    .ph1{
-        width:50px;
-    }
+                </div>
 
-    .discover{
-      margin-left:-50px;
-      
-    }
-    .text-1{
-        font-weight: 800;
-        font-size: 18px;
-    }
-    .text-2{
-        font-size:16px;
-    }
-    .text-3{
-        font-size:18px;
-    }
+                <!-- </div> -->
+
+
+                <!-- <div class="col-lg-8">
+                   
+
+                </div> -->
+
+                <div class="col-lg-4 mt-5">
+                    <img src="images/teeth_bg.png" alt="" class="img-fluid teeth_bg mt-5">
+                </div>
+            </div>
+
+            <div class="row my-5">
+                <div class="col-lg-8 mx-auto text-center">
+                    <p style="text-align:center;">
+                        <button type="button" class="btn btn-primary btn1 text-center p-4 " href="" role="button" data-bs-toggle="modal"data-bs-target="#dental-modal">Book Your Free Implant Consultation Now</button>
+                    </p>
+                    <p class="h3 text-4 mb-5">Get Same-Day Teeth With Dental Implant</p>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <section>
+        <div class="discover2-bg"
+            style="background-image:url(images/hero-bg.png) ; border-bottom: 1px solid #000000; box-sizing: border-box;  ">
+            <div class="container" style="background: rgba(90, 134, 170, 0.91);">
+
+                <div class="discover2  ">
+                    <div class="row ">
+                        <h2 class="mx-auto text-center txt71 mt-5" style="color: #FFFFFF;">
+                            TREATMENTS OFFERED AT DENTAL REFORMS:
+                            <span class="mt-5"></span>
+                        </h2>
+                    </div>
+
+                    <div class="row ">
+                        <div class="col-md-8 align-items-center mx-3  ">
+                            <p class="d-flex  flex-column align-items-center justify-content-center mx-3 ">
+
+                            <div class="my-5 lh-1 ">
+                                <b><img src="images/6.png" style="width:25px; " oncontextmenu="return false"
+                                        class="img-fluid"> 1. Smile Designing & Cosmetic Dentistry</b>
+                            </div>
+                            <div class="my-5 lh-1 ">
+                                <b><img src="images/6.png" style="width:25px;" oncontextmenu="return false"
+                                        class="img-fluid"> 2. Full Mouth Reconstructions</b>
+                            </div>
+                            <div class="my-5 lh-1 ">
+                                <b><img src="images/6.png" style="width:25px;" oncontextmenu="return false"
+                                        class="img-fluid">3. Implant Surgeries</b>
+                            </div>
+                            <div class="my-5 lh-1 ">
+                                <b><img src="images/6.png" style="width:25px;" oncontextmenu="return false"
+                                        class="img-fluid"> 4. Single Visit Root Canal</b>
+                            </div>
+                            <div class="my-5 lh-1 ">
+                                <b><img src="images/6.png" style="width:25px;" oncontextmenu="return false"
+                                        class="img-fluid"> 5. Fixed and Removable Dentures</b>
+                            </div>
+                            <div class="my-5 lh-1 ">
+                                <b><img src="images/6.png" style="width:25px;" oncontextmenu="return false"
+                                        class="img-fluid"> 6. Crowns & Bridges </b>
+                            </div>
+                            <div class="my-5 lh-1 ">
+                                <b><img src="images/6.png" style="width:25px;" oncontextmenu="return false"
+                                        class="img-fluid"> 7. Tooth Coloured Fillings</b>
+                            </div>
+                            <div class="my-5 lh-1 ">
+                                <b><img src="images/6.png" style="width:25px;" oncontextmenu="return false"
+                                        class="img-fluid"> 8. Teeth Whitening</b>
+                            </div>
+                            <div class="my-5 lh-1 ">
+                                <b><img src="images/6.png" style="width:25px;" oncontextmenu="return false"
+                                        class="img-fluid ">
+                                    9. Pediatric Dentistry </b>
+                            </div>
+                            <div class="my-5 lh-1 ">
+                                <b><img src="images/6.png" style="width:25px;" oncontextmenu="return false"
+                                        class="img-fluid"> 10. Orthodontic Braces</b>
+                            </div>
+
+
+                            </p>
+
+
+                        </div>
+                    </div>
+
+                    <div class="row my-5">
+                        <div class="col-lg-8 mx-auto text-center">
+                            <p style="text-align:center;">
+                                <button type="button" class="btn btn-primary btn2 text-center p-4 " href="" role="button" data-bs-toggle="modal"data-bs-target="#dental-modal">Book Pain-Free Appointment Now</button>
+                            </p>
+                            <p class="h3 text-4">(Guaranteed Relief Of Tooth Pain In Single Visit)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="discover2_border"></div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-11">
+                    <h1 class="text-11">Discover Our Leading Smile Designing Treatment That Has Transformed The Smiles
+                        Of Thousands Of
+                        People.</h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class=" col-lg-7">
+                    <h2 class="text-12">Are You Still Worrying About Your Gummy, Crooked Or Stained Teeth?</h2>
+                    <p class="text-13 mb-5">Or, Still Searching About - How To Fix My Smile & What's
+                        The Cost Of Smile Design?? Then, Don't Worry. At Dental Reforms, Dr. Dipika has Transformed More
+                        Than 10,000+
+                        Smiles With Advanced Smile Designing Procedures That Transform Your Smile Without Worrying About
+                        Your
+                        Tooth Pain Or Sensitivity Problems.</p>
+                </div>
+                <div class=" col-lg-5 mb-5 ">
+                    <img src="images/girl_teeth.png" alt="" class="img-fluid girl_teeth" style="width: 760px;">
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section>
+        <div class="mt-5">
+            <div class="container-fluid mt-5 " style="background: #F2F7FC;">
+                <div class="client-review mt-5">
+                    <h2 class=" mt-5">
+                        OUR HAPPY PATIENTS SMILE
+                    </h2>
+
+
+                    <div class="slider mt-5">
+                        <div class="owl-carousel">
+                            <div class="slider-card">
+                                <div class="d-flex justify-content-center align-items-center mb-4">
+                                    <img src="images/teeth/client-1.png" class="img-fluid" oncontextmenu="return false">
+                                </div>
+
+
+
+                                </p>
+                            </div>
+
+                            <div class="slider-card">
+                                <div class="d-flex justify-content-center align-items-center mb-4">
+                                    <img src="images/teeth/client-2.png" oncontextmenu="return false" class="img-fluid">
+                                </div>
+
+
+
+                                </p>
+                            </div>
+
+                            <div class="slider-card">
+                                <div class="d-flex justify-content-center align-items-center mb-4">
+                                    <img src="images/teeth/client-3.png" oncontextmenu="return false" class="img-fluid">
+                                </div>
+
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="row mb-5">
+                        <div class="col-lg-8 mx-auto text-center">
+                            <p style="text-align:center;">
+                                <button type="button" class="btn btn-primary btn1 text-center p-4 " href="" role="button" data-bs-toggle="modal"data-bs-target="#dental-modal">Book Pain-Free Appointment Now</button>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+            </div>
+
+        </div>
+        </div>
+
+    </section>
+
+    <section>
+        <div class="container-fluid" style="background: rgba(159, 200, 234, 0.55);">
+            <div class="row">
+                <div class="col-lg-7">
+
+                    <div class="row">
+                        <div>
+                            <h1 class="text-14">Say Goodbye To Yellow Teeth Today !</h1>
+                            <p class="text-15">Are you done with trying various methods, tooth pastes and home remedies
+                                to
+                                whiten your yellowish
+                                teeth ,without any result. Does the color of your teeth keep your confidence low and
+                                your smile grim , If yes! Then, Visit Dental Reforms for the world's best tooth
+                                whitening solution
+                                "Advanced Zoom Tooth Whitening by Phillips " In less than 45-Minute</p>
+                        </div>
+                    </div>
+
+
+                    <div class="row mt-5">
+                        <div class="col-lg-8 mx-auto text-center">
+                            <p style="text-align:center;">
+                                <button type="button" class="btn btn-primary btn3 text-center p-4 "  href="" role="button" data-bs-toggle="modal"data-bs-target="#dental-modal">Get Whiten Tooth Today</button>
+                            </p>
+                            <p class="h3 text-4">(Claim 10% OFF On Teeth Whitening)</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-5 mx-auto">
+                    <img src="images/smile.png" alt="" class="img-fluid smile" >
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- <section>
+        <div class="container-fluid">
+            <div class="row">
+                <h1 class="mx-auto text-center text-danger">TESTIMONIALS</h1>
+                <div class="col-lg-12">
+                    <h1 class="mx-auto text-center mt-3">What Our Patients Say About Us !</h1>
+                   
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center mt-5">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, qui. Facere exercitationem
+                        dolorum dicta repellendus expedita minus sed reiciendis iure, nisi inventore, illum quo!
+                        Consectetur vel cupiditate voluptas consequuntur quisquam ullam eligendi doloremque praesentium,
+                        voluptate qui incidunt molestiae iusto natus totam tenetur porro nam saepe repudiandae
+                        voluptatibus non dolore maiores.</p>
+                </div>
+            </div>
+
+
+         <div class="row mt-5">
+            <div class="col-md-2 mt-5 mx-auto"></div>
+            <div class="col-md-4  ">
+                <div class="card" style="width: 20rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="card-link">Card link</a>
+                      <a href="#" class="card-link">Another link</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-4 mx-auto ">
+                  <div class="card" style="width: 20rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="card-link">Card link</a>
+                      <a href="#" class="card-link">Another link</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-2"></div>
+         </div>
+
+        </div>
+    </section> -->
+
+
+
     
-    .text-4{
-        font-size: 15px;
-        font-weight: 500;
-    }
-    .text-5{
-        font-weight: 600;
-        font-size: 20px;
-    }
-    .text-6{
-        font-size: 18px;
-    }
-    .text-7{
-        font-size: 20px;
-        margin-left:-50px;
-    }
-    .text-8{
-        font-size: 18px;
-    }
-    .teeth_bg{
-        margin-top:50px;
-        height:400px;
-        width:450px;
-    }
-    .text-9{
-        margin-left:-50px;
-        font-size: 20px;
+    <section>
+        <div style="background-color: #FFFFFF;">
+            <div class="container">
+                <div class="review">
+                    <div class="row">
+                        
+                        <div class="col-lg-12">
+                            <h1 class="mx-auto text-center mt-3">What Our Patients Say About Us !</h1>
 
-    }
-    .text-10{
-        margin-left:-50px;
-        font-size: 18px;
-        margin-top:10px;
-    }
-    .text-11{
-        font-size: 20px;
-        margin-top:50px;
-        margin-left:-50px;
-    }
-    .text-12{
-        font-size: 20px;
-        margin-left:-50px;
+                        </div>
+                    </div>
+                    <div class="slider ">
+                        <div class="owl-carousel">
+                            <div class="slider-card" style="padding-bottom: 10px;">
+                                <div class="d-flex justify-content-center align-items-center mb-4">
+                                    <!-- <img src="images/boy.png" alt="" class="img-fluid"> -->
+                                </div>
+                                <a href="#">
+                                    <img src="images/google.png" class="img-fluid google"
+                                        style="width: 35px;height: 25px; ">
+                                </a>
+                                <a href="#">
+                                    <img src="images/boy.png" class="img-thumbnail slider_img"
+                                        style="width: 50px; height: auto; " alt="...">
+                                    <!-- <img src="assets/images/image-312.png" width="" class="img-fluid"> -->
+                                </a>
+                               
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <h5 class="mb-0 text-center"><b>Jay S Gaikwad</b></h5>
 
-    }
-    .text-13{
-        font-size: 18px;
-        margin-left:-50px;
-    }
-    .text-14{
-        font-size: 18px;
+                                <p class="text-center p-4">I've visited Esthetix dental for my braces Dr
+                                    Harini was patient enough to explain the procedure in detail,
+
+                                   
+                                <div class="star">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                                </p>
+
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
        
-        margin-left:-50px;
-    }
-    .text-15{
-        font-size: 16px;
-        margin-left:10px;
-        margin-left:-50px;
-    }
-    .text-16{
-        font-size: 18px;
-        text-align:start;
-    }
-    .text-17{
-        margin-top:50px;
-        font-size: 22px;
-        font-weight: 600;
-    }
-    .text-18{
-        font-weight: 600;
-        font-size: 30px;
-    }
-    .btn1{
-    font-weight: 500;
-    font-size: 15px;
-    }
-    .btn2{
-        font-weight: 500;
-    font-size: 15px;
-    }
-
-    .satisfaction .span1{
-        display:none;
-    }
-
-    .satisfaction .span2{
-        display:none;
-    }
-
-    .discover2-bg{
-        /* background-image:  url(images/hero-bg.png); */
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        padding: 0rem 0rem 10rem; 
-    }
-    .discover2{
-        padding: 20px;
-        margin: 10px;
-        color: #fff;
-        /* text-align: center; */
-        
-     
-    }
-    .discover2 .txt71 {
-        font-size: 20px;
-        font-weight: 600;   
-        color: #FFFFFF;
-    }
-    
-    .discover2 h2 span{
-        display: block;
-        width: 20%;
-        border: 3px solid #fff;
-        border-radius: 15px;
-        margin-top: 10px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .slider_img{
-        margin-left:140px;
-    }
-}
-
-@media only screen and (max-width:991px)  and (min-width: 768px)  {
-
-    .discover{
-        margin-left:-50px;
-    }
-    .text-1{
-        font-size: 40px;
-    }
-
-    .text-2{
-        font-size: 30px;
-    }
-    .text-3{
-        font-size: 20px;
-    }
-    .text-4{
-        font-size:18px;
-    }
-    .text-5{
+    </section>
        
-    }
-    .text-6{
-       
-    }
+    <section>
+        <div class="guarante-bg">
+            <div class="container">
+                <div class="guarantee">
+                    <div class="guarantee-image">
+                        <div class="satisfaction">
 
-    .text-7{
-       
-        margin-left:-50px;
-    }
-    .text-8{
-       
-        
-    }
-    .text-9{
-        margin-left:-50px;
-    }
-    .text-10{
-        margin-left:-50px;
-    }
-    .text-11{
-        margin-left:-50px;
-    }
-    .text-12{
-        margin-left:-50px;
-    }
-    .text-13{
-        margin-left:-50px;
-    }
-    .text-14{
-        font-size:35px;
-        margin-left:-50px;
-    }
-    .text-15{
-        margin-left:-50px;
-    }
-    .slider_img{
-        margin-left:300px;
-    }
-}
+                            <span class="span1"></span>
+                            <div class="container-fluid" style="background: #3D3D77;  height: 200px; ">
+                                <img src="images/kindpng_498739-1.png" class="img-fluid">
+                            </div>
+                            <span class="span2"></span>
+                        </div>
+                    </div>
+
+                    <div class="row ">
+                        <div class="col-lg-8 mx-auto text-center mb-5">
+                            <h1 class="text-17">About Our Clinic</h1>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto text-center ">
+                            <p class="text-16">Dr. Dipika Dodeja - Chief Dentist At Dental Reforms Clinic Thane Dr.
+                                Dipika Dodeja, Owner
+                                and Chief Dentist at Dental Reforms Clinic, Thane, has been a practicing dentist for the
+                                last 12 years and holds a Masters Degree in Maxillofacial Prosthodontics and
+                                Implantology from Dr. D Y Patil university, Navi Mumbai. She has worked with renowned
+                                dental practitioners in Mumbai and has been privileged to be associated with D Y Patil
+                                school of Dentistry as a teaching faculty. - Bachelor of Dental Surgery (BDS) from M.G.M
+                                Dental college and Hospital,Kamothe (2003-2008) - Master of Dental Surgery in the Field
+                                of Prosthodontics and Implantology from D.Y.Patil School of Dentistry (2016-2019) -
+                                Clinical Experience:-12 years - Former Teaching Faculty at D.Y. Patil School of
+                                Dentistry Navi Mumbai - Recipient of Best Paper award at 20th Indian Prosthodontic
+                                Society Student Convention (2018)</p>
+                        </div>
+                    </div>
 
 
- 
+
+
+                </div>
+
+                <div class="row my-5">
+                    <div class="col-lg-8 mx-auto text-center">
+                        <p style="text-align:center;">
+                            <button type="button" class="btn btn-primary btn3 text-center p-4 "  href="" role="button" data-bs-toggle="modal"data-bs-target="#dental-modal">Book Your Appointment Today</button>
+                        </p>
+                        <p class="h3 text-4">Guaranteed Relief Of Tooth Pain In Single Visit</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="dental-form-bg">
+            <div class="container">
+                <div class="dental-form ">
+                    <!-- <form class="row g-3 company_form " onsubmit="sendEmail(); reset(); return false; "> -->
+                    <form class="row g-3" onsubmit="sendmail(event)">
+                        <div class="col-md-6">
+                            <div class="dental-form-control">
+                                <label for="name" class="form-label form-label-lg">Full Name*</label>
+                                <input type="text" class="form-control form-control-lg" id="name" name="name"
+                                    placeholder="Full Name" required>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="dental-form-control">
+                                <label for="email" class="form-label form-label-lg">Email Address*</label>
+                                <input type="email" class="form-control form-control-lg" id="email_no" name="email"
+                                    placeholder="abc@gamil.com" required>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="dental-form-control">
+                                <label for="phone" class="form-label form-label-lg">Phone Number*</label>
+                                <input type="number" class="form-control form-control-lg" id="phone" name="phone"
+                                    placeholder="Mobile Number" required>
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-md-6">
+                            <div class="dental-form-control">
+                                <label for="age" class="form-label form-label-lg">Treatment*</label>
+                                <select class="form-select form-select-lg" id="Treatment" name="Treatment"
+                                    aria-label="Default select example" required>
+                                    <option selected>Option: -
+                                        Overbite</option>
+                                    <option value="Underbite">Underbite</option>
+                                    <option value="Crossbite">Crossbite</option>
+                                    <option value="Gapped Teeth">Gapped Teeth</option>
+                                    <option value="Overly Crowded">Overly Crowded</option>
+                                    <option value="Unstraightened teeth">Unstraightened teeth</option>
+                                </select>
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-md-6">
+                            <div class="dental-form-control">
+                                <label for="Date" class="form-label form-label-lg">Date*</label>
+                                <input type="Date" class="form-control form-control-lg" id="Date" name="Date"
+                                    placeholder="Eg:22" required>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="dental-form-control">
+                                <label for="time" class="form-label form-label-lg">Time*</label>
+                                <input type="time" class="form-control form-control-lg" id="time" name="time"
+                                    placeholder="Time" required>
+                            </div>
+                        </div>
+
+
+                        <!-- <div class="col-md-6">
+                            <div class="dental-form-control">
+                                <label for="age" class="form-label form-label-lg">Age*</label>
+                                <select class="form-select form-select-lg" name="age"
+                                    aria-label="Default select example" required>
+                                    <option selected>Age</option>
+                                    <option value="Between 18 to 24">Between 18 to 24</option>
+                                    <option value="Between 24 to 28">Between 24 to 28</option>
+                                    <option value="Between 28 to 32">Between 28 to 32</option>
+                                    <option value="Between 32 to 36">Between 32 to 36</option>
+                                    <option value="Between 36 to 40">Between 36 to 40</option>
+                                </select>
+                            </div>
+                        </div> -->
+
+                </div>
+                <div class="row my-5">
+                    <div class="col-lg-8 mx-auto text-center">
+                        <p style="text-align:center;">
+                            <a class="btn btn-primary btn2 text-center p-4 " href="#" role="button"
+                                data-bs-toggle="button">Book Your Appointment Tooday</a>
+                        </p>
+                    </div>
+                </div>
+                </form>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <div class="pb-lg-5 pb-md-4 pb-sm-3 pb-2">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.970932379176!2d72.9600537!3d19.196471900000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b9107ce981c5%3A0x7e6783190675a020!2sCare%20%26%20Cure%20Dental%20Clinic!5e0!3m2!1sen!2sin!4v1682066712491!5m2!1sen!2sin"
+                    width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script> <!-- jquery cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
+
+
+    <script>
+        $('#carousel1').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })
+        $('#carousel2').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        })
+        $('#carousel3').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>

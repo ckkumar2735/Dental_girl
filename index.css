@@ -19,10 +19,11 @@
     background-image:url(./images/bg-1.png);
     background-position:center;
     background-size:cover;
+    opacity:1;
     /* background-attachment:fixed; */
     /* height: 890px; */
 }
-
+;
 .btn-dental{
 
 }
@@ -676,7 +677,7 @@ font-size: 25px;
 {
     .btn-dental{
         margin-left:25px;
-        
+
         
     }
 
@@ -692,20 +693,23 @@ font-size: 25px;
     }
 
     .discover{
-      margin-left:-50px;
+      /* margin-left:-50px; */
+      margin-left:-20px;
       height: 350px;
+      width:350px;
     
 
       
     }
     .text-1{
-        font-weight: 800;
-        font-size: 18px;
+        font-weight: 700;
+        font-size: 25px;
     }
     .text-2{
         font-size:16px;
     }
     .text-3{
+        /* font-weight: 400; */
         font-size:18px;
     }
     
@@ -715,21 +719,22 @@ font-size: 25px;
     }
     .text-4_1{
         font-size: 13px;
-        font-weight: 500;
+        font-weight: 700;
     }
     .text-5{
         font-weight: 600;
-        font-size: 20px;
+        font-size: 30px;
     }
     .text-6{
-        font-size: 18px;
+        font-size: 20px;
     }
     .text-7{
-        font-size: 20px;
-        margin-left:-50px;
+        font-size: 30px;
+        /* margin-left:-50px; */
+        margin-left:-25px;
     }
     .text-8{
-        font-size: 18px;
+        font-size: 20px;
     }
     .teeth_bg{
         margin-top:50px;
@@ -738,45 +743,45 @@ font-size: 25px;
     }
     .text-9{
         margin-left:-50px;
-        font-size: 20px;
+        font-size: 30px;
 
     }
     .text-10{
         margin-left:-50px;
-        font-size: 18px;
+        font-size: 20px;
         margin-top:10px;
     }
     .text-11{
-        font-size: 20px;
+        font-size: 30px;
         margin-top:50px;
         margin-left:-50px;
     }
     .text-12{
-        font-size: 20px;
+        font-size: 25px;
         margin-left:-50px;
 
     }
     .text-13{
-        font-size: 18px;
+        font-size: 20px;
         margin-left:-50px;
     }
     .text-14{
-        font-size: 18px;
+        font-size: 30px;
        
-        margin-left:-50px;
+        margin-left:-30px;
     }
     .text-15{
-        font-size: 16px;
-        margin-left:10px;
-        margin-left:-50px;
+        font-size: 20px;
+        /* margin-left:10px; */
+        margin-left:-30px;
     }
     .text-16{
-        font-size: 18px;
+        font-size: 20px;
         text-align:start;
     }
     .text-17{
         margin-top:50px;
-        font-size: 22px;
+        font-size: 30px;
         font-weight: 600;
     }
     .text-18{
@@ -789,7 +794,7 @@ font-size: 25px;
     }
     .btn2{
         font-weight: 500;
-    font-size: 15px;
+    font-size: 16px;
     }
     .btn3{
         font-weight: 500;
